@@ -30,7 +30,9 @@
 
   async function saveLead(payload) {
     if (config.leadEndpoint) {
-      const response = await fetch(config.leadEndpoint, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(payload) });
+      const formData = new FormData();
+      Object.entries(payload).forEach(([key, value]) => formData.append(key, value));
+      const response = await fetch(config.leadEndpoint, { method: "POST", headers: { Accept: "application/json" }, body: formData });
       if (!response.ok) throw new Error("Lead endpoint returned an error");
       return "crm";
     }
