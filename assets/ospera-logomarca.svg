@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">Óspera - A operação do hotel, sob controle</title>
+  <desc id="desc">Logomarca azul-marinho e verde-esmeralda para plataforma de operação hoteleira.</desc>
+  <rect width="1600" height="520" fill="#FFFFFF"/>
+  <g transform="translate(90 86)">
+    <circle cx="170" cy="170" r="136" fill="none" stroke="#0B2747" stroke-width="34"/>
+    <path d="M95 192 C124 246 214 263 261 201" fill="none" stroke="#0A7A52" stroke-width="34" stroke-linecap="round"/>
+    <circle cx="170" cy="170" r="18" fill="#D5A829"/>
+    <path d="M170 69 L170 271" stroke="#0B2747" stroke-width="12" stroke-linecap="round" opacity=".12"/>
+  </g>
+  <text x="410" y="245" font-family="Arial, Helvetica, sans-serif" font-size="166" font-weight="700" letter-spacing="-8" fill="#0B2747">Óspera</text>
+  <text x="1122" y="245" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="2" fill="#0A7A52">OPS</text>
+  <text x="420" y="322" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" letter-spacing="7" fill="#0A7A52">HOTEL OPERATIONS SYSTEM</text>
+  <line x1="420" y1="363" x2="1460" y2="363" stroke="#D5A829" stroke-width="5"/>
+  <text x="420" y="421" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#52616F">A operação do hotel, sob controle.</text>
+</svg>
